@@ -111,3 +111,52 @@ else (answer != true) {
     console.log('User decided not to continue');
 }
 
+//////////////////// FUNCIONES
+
+function retro_syntax_function_1(param1) {
+    console.log(param1);
+}
+
+retro_syntax_function_1("retro_syntax_function_1");
+
+// Arrow Function
+
+const retro_syntax_function_2 = function(param1) {
+    console.log(param1);
+}
+
+
+const arrow_syntax = () => 'arrow_syntax_4';
+
+//
+
+function retro_syntax_function_3() {
+    return "retro_syntax_function_3";
+}
+
+console.log(retro_syntax_function_3());
+
+
+const arrow_syntax_function_1 = () => console.log("arrow_syntax_function_1");
+const arrow_syntax_function_2 = (param1) => console.log(param1);
+const arrow_syntax_function_3 = () => "arrow_syntax_function_3";
+const arrow_syntax_function_4 = param1 => console.log(param1);
+const arrow_syntax_function_5 = param1 => {
+    console.log(param1)
+};
+arrow_syntax_function_1();
+arrow_syntax_function_2("arrow_syntax_function_2");
+console.log(arrow_syntax_function_3());
+arrow_syntax_function_4("arrow_syntax_function_4");
+
+
+class User {
+    constructor(name, lastname, email, user, pass, status) {
+        this.name = name;
+        this.lastname = lastname;
+        this.email = email;
+        this.user = user;
+        this.pass = pass;
+        this.status = status;
+    }
+}
