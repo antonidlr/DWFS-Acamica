@@ -1,0 +1,68 @@
+// HEADER
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    margin: 0 35px;
+}
+
+.nav {
+    li {
+        list-style-type: none;
+        margin: 0 15px;
+    }
+    
+    ul {
+        display: flex;
+        margin-right: 20px;
+    }
+}
+
+//HEADING
+
+.section__1 {
+    display: flex;
+    
+    justify-content: center;
+    
+}
+
+.heading {
+    padding: 45px;
+}
+
+figure {
+    padding: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    img {
+        width: 550px;
+        height: 250px;
+        object-fit: cover;
+    }
+    figcaption {
+        margin-top: 20px;
+    }
+    
+
+   
+}
+
+.section__2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section__2_images {
+    display: flex;
+}
+
+.border {
+    border: 1px solid red;
+}
