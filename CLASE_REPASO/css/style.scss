@@ -153,6 +153,7 @@ body {
     p:first-child {
         color: #444850;
         margin: 25px 30px 20px 18px;
+        line-height: 24px;
     }
 }
 
@@ -217,4 +218,25 @@ body {
     a {
         color: #007bff;
     }
+}
+
+@media (max-width: 575.98px) { 
+    @import 'mobile';
+}
+
+@media (min-width: 575.98px) and (max-width: 767.98px) { 
+    
+    @import 'tablet_2';
+ }
+
+ // Medium devices (tablets, less than 992px)
+@media (min-width: 767.98px) and (max-width: 991.98px) { 
+    @import 'medium_device';
+}
+
+// Large devices (desktops, less than 1200px)
+@media (min-width: 991.98px) and (max-width: 1199.98px) { 
+
+    @import 'large_device';
+    
 }
